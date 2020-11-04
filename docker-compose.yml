@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: testing123
+      MYSQL_DATABASE: loans
+    ports:
+      - "3306:3306"

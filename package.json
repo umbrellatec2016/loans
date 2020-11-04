@@ -1,0 +1,35 @@
+{
+  "name": "loans",
+  "version": "1.0.0",
+  "description": "Loans proof of concept with rabbitmq",
+  "main": "loans.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development node loans.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umbrellatec2016/loans.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umbrellatec2016/loans/issues"
+  },
+  "homepage": "https://github.com/umbrellatec2016/loans#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "babel": "^6.23.0",
+    "body-parser": "^1.19.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
